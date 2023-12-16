@@ -1,0 +1,60 @@
+.first-container {
+    background-image: url("../../assets/images/desktop/Img\ Head\ desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 974px;
+    width: 100%;
+}
+
+.why-container {
+    background-color: rgba(204, 44, 44, 1);
+    height: 1537px;
+    width: 100%;
+}
+
+.faq-container {
+    background-color:rgba(246, 246, 246, 1);
+    height: 2812px;
+    width: 100%;
+}
+
+.services-container {
+    background-color: rgba(255, 255, 255, 1);
+    height: 3708px;
+    width: 100%;
+}
+
+.about-container {
+    background-color: rgba(246, 246, 246, 1);
+    height: 1376px;
+    width: 100%;
+}
+
+.attendance-container {
+    background-color: rgba(255, 255, 255, 1);
+    height: 996px;
+    width: 100%;
+}
+
+.feedback-container {
+    background-color: rgba(204, 44, 44, 1);
+    height: 984px;
+    width: 100%;
+}
+
+.location-container {
+    background-color: rgba(246, 246, 246, 1);
+    height: 733px;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgba(235, 235, 235, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    width: 100%;
+}
