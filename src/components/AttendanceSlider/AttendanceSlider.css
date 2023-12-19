@@ -1,0 +1,20 @@
+.slick-slide>div {
+    /* background-color: aqua; */
+    display: flex;
+    margin: 10px 0px 30px 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.attendance-title {
+    
+}
+
