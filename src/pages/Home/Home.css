@@ -1,35 +1,11 @@
-.first-container {
-    background-image: url("../../assets/images/desktop/Img\ Head\ desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 974px;
-    width: 100%;
-}
-
-.why-container {
-    background-color: rgba(204, 44, 44, 1);
-}
-
-.faq-container {
-    background-color: rgba(246, 246, 246, 1);
-}
-
-.services-container {
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 120px;
-    padding-right: 60px;
-    padding-bottom: 120px;
-    padding-left: 60px;
-    gap: 30px;
-}
-
-.about-container {
-    background-color: rgba(246, 246, 246, 1);
+.button {
+    background-color: #cc2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 80px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .attendance-container {
@@ -40,112 +16,15 @@
 .feedback-container {
     background-color: rgba(204, 44, 44, 1);
     padding: 60px;
+    height: 733px;
 }
 
 .location-container {
     background-color: rgba(246, 246, 246, 1);
-}
-
-.why-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px;
-    gap: 30px;
-}
-
-.title-why-container {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-}
-
-.cards-why-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.faq-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px;
-    gap: 30px;
-}
-
-.faq-object {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.faq-bottom1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    padding: 40px;
-    gap: 30px;
-}
-
-.faq-bottom2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    padding: 40px;
-    gap: 30px;
-}
-
-.faq-bottom3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 40px;
-    gap: 30px;
-    margin-right: 200px;
-}
-
-.faq-img{
-    max-width: 400px;
-    max-height: 400px;
-}
-
-.faq-line {
-    width: 80%;
-    height: 1px;
-    background-color: rgba(204, 44, 44, 1);
-}
-
-.cards-lines-services-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-.title-services-container {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
-    margin-right: 48%;
 }
 
 .footer {

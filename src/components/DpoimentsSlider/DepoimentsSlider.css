@@ -1,3 +1,25 @@
 .slick-slide img {
     margin: 0 10px;
 }
+
+.depoiments-title {
+    color: aliceblue;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.btn {
+    background-color: white;
+    color: #cc2c2c;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 80px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

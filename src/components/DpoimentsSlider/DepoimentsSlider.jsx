@@ -21,19 +21,9 @@ const DepoimentsSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    responsive: [
-        {
-          breakpoint: 789,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-          },
-        },
-      ],
   };
+
+  const linkButton = "https://chat.smartsocialchat.com.br/dr-mauricio";
 
   const depoiments = [
     depoiment1,
@@ -48,12 +38,20 @@ const DepoimentsSlider = () => {
 
   return (
     <>
+      <div className="top">
+        <h1 className="depoiments-title">O que falam do Dr Mauricio</h1>
+      </div>
       <div className="depoiments-slider">
         <Slider {...settings}>
           {depoiments.map((depoiment) => (
             <img className="depoiment-img" src={depoiment} alt="" />
           ))}
         </Slider>
+      </div>
+      <div className="bottom">
+        <a href={linkButton} target="_blank" rel="noreferrer">
+          <button className="btn">Agendar consulta</button>
+        </a>
       </div>
     </>
   );

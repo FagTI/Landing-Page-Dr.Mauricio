@@ -1,16 +1,49 @@
-.container{
-    min-height: 464px;
+.container {
+    height: 487px;
     color: black;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 450px;
 
-    iframe{
-        min-height: 100%;
-        width:864px;
+    iframe {
+        height: 600px;
+        width: 864px;
         border: none;
-        @media screen and (max-width: 1496px) {
-            width:100%;
+
+        @media screen and (max-width: 768px) {
+            width: 430px;
             height: 487px;
+        }
+
+        @media screen and (max-width: 380px) {
+            width: 330px;
+            height: 487px;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-left: 330px;
+
+        @media screen and (max-width: 768px) {
+            margin-left: 110px;
+        }
+
+        @media screen and (max-width: 380px) {
+            margin-left: 0px;
         }
     }
 }
