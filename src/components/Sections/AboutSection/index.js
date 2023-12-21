@@ -8,10 +8,7 @@ const AboutSection = () => {
     return (
         <div className="about-container">
             <div className="about-text-container">
-                <h1 className="about-title">Dr. Mauricio Medeiros</h1>
-                <h1 className="about-title">CARDIOLOGISTA</h1>
-
-                <h2 className="sub-title">CREMEC: 9091 | RQE: 11103</h2>
+                <h1 className="about-title">Sobre mim</h1>
                 <p className="about-text">
                     Me chamo Maurício Medeiros, minha paixão por cardiologia nasceu
                     ainda na adolescência, quando acompanhei a luta do meu avô com

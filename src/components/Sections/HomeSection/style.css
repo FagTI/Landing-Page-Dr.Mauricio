@@ -47,6 +47,7 @@
 
         h1 {
             text-align: center;
+            width: 100%;
         }
 
         h2 {
@@ -57,8 +58,12 @@
         p {
             padding-top: 2rem;
             padding-bottom: 2rem;
-            font-size: 2vw;
+            font-size: 1rem;
             text-align: center;
+        }
+
+        button {
+            width: 100%;
         }
     }
 
@@ -74,7 +79,7 @@
     
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 390px) {
     .first-container {
         background-image: url("../../../assets/images/mobile/Img\ Head\ Mobile.png");
         background-repeat: no-repeat;
@@ -100,8 +105,13 @@
         p {
             padding-top: 2rem;
             padding-bottom: 2rem;
-            font-size: 2vw;
+            font-size: 3vw;
             text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px 20px;
         }
     }
 }

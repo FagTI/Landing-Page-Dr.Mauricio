@@ -21,6 +21,15 @@ const DepoimentsSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const linkButton = "https://chat.smartsocialchat.com.br/dr-mauricio";
@@ -37,7 +46,7 @@ const DepoimentsSlider = () => {
   ];
 
   return (
-    <>
+    <div className="depoiment-slider-content">
       <div className="top">
         <h1 className="depoiments-title">O que falam do Dr Mauricio</h1>
       </div>
@@ -53,7 +62,7 @@ const DepoimentsSlider = () => {
           <button className="btn">Agendar consulta</button>
         </a>
       </div>
-    </>
+    </div>
   );
 };
 

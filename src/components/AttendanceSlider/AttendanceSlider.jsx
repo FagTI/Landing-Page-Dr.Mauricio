@@ -11,10 +11,19 @@ const AttendanceSlider = ({ images }) => {
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <>
+    <div className="atendance-slider-content">
       <div className="top">
         <h1 className="attendance-title">Nosso atendimento</h1>
         <p className="subtitle-attendance-container">
@@ -32,7 +41,7 @@ const AttendanceSlider = ({ images }) => {
           ))}
         </Slider>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -22,7 +22,12 @@
         font-weight: 600;
         width: 60%;
         text-align: center;
+        padding-bottom: 2rem;
     }
+}
+
+.faq-topics {
+    color: #646464;
 }
 
 .faq-bottom1 {
@@ -66,7 +71,7 @@
     background-color: rgba(204, 44, 44, 1);
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
     .faq-container {
         padding: 30px;
     }
@@ -97,17 +102,22 @@
     }
 
     .faq-topics {
-        width: 60%;
+        width: 80%;
         padding: 0px;
     }
 
     .faq-img {
-        max-width: 100%;
+        max-width: 80%;
         max-height: 100%;
     }
 
     .faq-line {
         width: 100%;
     }
+}
 
+@media screen and (max-width: 390px) {
+    h1 {
+        font-size: 1rem;
+    }
 }

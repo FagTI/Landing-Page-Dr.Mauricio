@@ -19,7 +19,7 @@
             height: 487px;
         }
 
-        @media screen and (max-width: 380px) {
+        @media screen and (max-width: 390px) {
             width: 330px;
             height: 487px;
         }
@@ -35,15 +35,7 @@
     h1 {
         font-size: 2.5rem;
         font-weight: 700;
-        margin-bottom: 20px;
-        margin-left: 330px;
-
-        @media screen and (max-width: 768px) {
-            margin-left: 110px;
-        }
-
-        @media screen and (max-width: 380px) {
-            margin-left: 0px;
-        }
+        padding-top: 3rem;
+        padding-bottom: 2rem;
     }
 }
