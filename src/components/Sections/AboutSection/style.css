@@ -8,10 +8,17 @@
 
     img {
         right: 0;
-        width: 36%;
+        width: 100%;
         min-height: 100%;
         object-fit: cover;
     }
+}
+
+.about-section-img {
+    width: 30%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    object-fit: cover;
 }
 
 .about-text-container {
@@ -52,10 +59,6 @@
     .about-container {
         flex-wrap: wrap-reverse;
         max-height: fit-content;
-
-        img {
-            width: 100%;
-        }
 
         .about-text-container {
             width: 100%;
