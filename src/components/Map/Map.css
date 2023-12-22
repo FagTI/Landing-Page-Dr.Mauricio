@@ -1,32 +1,22 @@
 .container {
-    height: 487px;
-    color: black;
     display: flex;
+    color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
     height: 450px;
 
     iframe {
+        padding: 0 2rem;
         height: 600px;
-        width: 864px;
+        width: 100%;
         border: none;
-
-        @media screen and (max-width: 768px) {
-            width: 430px;
-            height: 487px;
-        }
-
-        @media screen and (max-width: 390px) {
-            width: 330px;
-            height: 487px;
-        }
     }
 }
 
 .content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

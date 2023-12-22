@@ -1,5 +1,7 @@
 .all {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .button {
@@ -27,6 +29,9 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
+    @media screen and (max-width: 375px) {
+max-width: 375px;
+    }
 }
 
 .footer {
